@@ -47,3 +47,10 @@ group :test do
   gem "database_cleaner"
   gem "rspec"
 end
+
+
+gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
+
+group :production do
+  gem 'pg', '~> 1.4', '>= 1.4.3'
+end
