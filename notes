@@ -1,0 +1,53 @@
+sudo apt install postgresql-contrib libpq-dev
+
+
+curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+
+
+group :production do
+  gem 'pg', '~> 1.4', '>= 1.4.3'
+end
+
+
+gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
+
+
+>> bundle install
+
+>> create a procfile
+
+
+web bundle exec rackup config.ru -p $PORT
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: production
+  host: <%= ENV['DATABASE_HOST'] %>
+  pool: 5
+
+
+>> Login to Heroku
+heroku login
+heroku create your-app-name
+(Stack 20)
+
+
+heroku stack:set heroku-20 -a <your-app-name>
+git add .
+git commit -m "blablabla"
+
+
+
+heroku git:remote -a <your-app-name>
+
+git push origin main/master
+heroku rake db:migrate
+
+
+***
+heroku run rake db:seed
+
+
+heroku addons:create heroku-postgresql:hobby-dev
