@@ -1,12 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (6.1.6.1)
-      activesupport (= 6.1.6.1)
-    activerecord (6.1.6.1)
-      activemodel (= 6.1.6.1)
-      activesupport (= 6.1.6.1)
-    activesupport (6.1.6.1)
+    activemodel (6.1.7)
+      activesupport (= 6.1.7)
+    activerecord (6.1.7)
+      activemodel (= 6.1.7)
+      activesupport (= 6.1.7)
+    activesupport (6.1.7)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -80,7 +80,6 @@ GEM
       rack-protection (= 2.2.2)
       sinatra (= 2.2.2)
       tilt (~> 2.0)
-    sqlite3 (1.4.4)
     thin (1.8.1)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -107,7 +106,6 @@ DEPENDENCIES
   sinatra (~> 2.1)
   sinatra-activerecord
   sinatra-contrib (~> 2.2, >= 2.2.2)
-  sqlite3 (~> 1.4)
   thin (~> 1.8)
 
 BUNDLED WITH
