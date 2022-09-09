@@ -10,14 +10,14 @@ Review.destroy_all
 
 # Readers
 puts "Creating readers..."
-reader1 = Reader.create(name: "John", email: "johndoe@gmail.com", birthday: "1990-01-01", phone_number: 254725289456)
-reader2 = Reader.create(name: "Jane", email: "janedoe@gmail.com", birthday: "1998-05-01", phone_number: 254724524456)
-reader3 = Reader.create(name: "Jack", email: "jackdoe@gmail.com", birthday: "1995-03-14", phone_number: 254726481521)
-reader4 = Reader.create(name: "Jill", email: "jillsmith@gmail.com", birthday: "1997-07-01", phone_number: 254724645468)
-reader5 = Reader.create(name: "Jenny", email: "jennyjack@gmail.com", birthday: "1999-09-26", phone_number: 254763654568)
-reader6 = Reader.create(name: "Jen", email: "jenrichards@gmail.com", birthday: "2002-11-01", phone_number: 254731531861)
-reader7 = Reader.create(name: "Josh", email: "joshpeck@gmail.com", birthday: "2004-12-01", phone_number: 254724654789)
-reader8 = Reader.create(name: "Jesse", email: "jessejohns@gmail.com", birthday: "2001-01-01", phone_number: 254753168463)
+reader1 = Reader.create(name: "John", email: "johndoe@gmail.com", birthday: "1990-01-01", phone_number: 25472528)
+reader2 = Reader.create(name: "Jane", email: "janedoe@gmail.com", birthday: "1998-05-01", phone_number: 25472454)
+reader3 = Reader.create(name: "Jack", email: "jackdoe@gmail.com", birthday: "1995-03-14", phone_number: 25472648)
+reader4 = Reader.create(name: "Jill", email: "jillsmith@gmail.com", birthday: "1997-07-01", phone_number: 25472464)
+reader5 = Reader.create(name: "Jenny", email: "jennyjack@gmail.com", birthday: "1999-09-26", phone_number: 25476365)
+reader6 = Reader.create(name: "Jen", email: "jenrichards@gmail.com", birthday: "2002-11-01", phone_number: 25473153)
+reader7 = Reader.create(name: "Josh", email: "joshpeck@gmail.com", birthday: "2004-12-01", phone_number: 25472465)
+reader8 = Reader.create(name: "Jesse", email: "jessejohns@gmail.com", birthday: "2001-01-01", phone_number: 25475316)
 
 
 # Books
