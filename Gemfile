@@ -40,6 +40,7 @@ gem "require_all"
 group :development do
   gem "pry"
   gem "rerun"
+  gem "sqlite3", "~> 1.4"
 end
 
 # These gems will only be used when we are running tests
